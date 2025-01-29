@@ -8,9 +8,8 @@ This Python script listens for MIDI input from a Korg nanoKEY2 and maps specific
 - Maps **C4 (Note 72)** to the **F5 key**
 - Pressing **C2 (Note 48)** stops the listener
 
+## Requirements
 Before using this project, ensure that you have the **KORG nanoKEY2/KORG USB-MIDI Driver** installed on your Windows machine.
-
-### Windows Installation
 
 1. **Download the KORG USB-MIDI Driver**:
    - Go to the official [nanoKEY2/KORG USB-MIDI Driver download page](https://www.korg.com/us/support/download/driver/0/156/3541/) (or the relevant page if the link changes over time).
@@ -24,7 +23,7 @@ Before using this project, ensure that you have the **KORG nanoKEY2/KORG USB-MID
    - Plug in the **KORG nanoKEY2** to your computer using the included USB cable.
    - The system should recognize the device and initialize it as a MIDI controller.
 
-## Requirements
+## Option1: Running the source code (using a python environment)
 
 - Python 3.x
 - `mido` library for MIDI input
@@ -35,7 +34,7 @@ Before using this project, ensure that you have the **KORG nanoKEY2/KORG USB-MID
 pip install mido pynput python-rtmidi
 ```
 
-## Usage
+### Usage
 
 Run the script with:
 
@@ -54,7 +53,7 @@ You can also download the latest precompiled binary from the **releases page** o
    - Download the latest release binary suitable for your platform (e.g., `nanokey2-midi-mapper-v0.0.1-alpha.exe` for Windows).
 
 2. **Run the Binary**:
-   - After downloading, locate the binary file (e.g., `nanokey2-midi-mapper-v1.0.0-alpha.exe`).
+   - After downloading, locate the binary file (e.g., `nanokey2-midi-mapper-v0.0.1-alpha.exe`).
    - Double-click the `.exe` file to run the application.
 
 3. **Usage**:
