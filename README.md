@@ -39,12 +39,12 @@ pip install mido pynput python-rtmidi
 Run the script with:
 
 ```sh
-python midi_listener.py
+python nanokey2-midi-mapper.py
 ```
 
 If the nanoKEY2 is connected, it will listen for MIDI input and trigger key events.
 
-### Option 2: Download the Latest Binary from the Releases
+## Option 2: Download the Latest Binary from the Releases
 
 You can also download the latest precompiled binary from the **releases page** of this repository.
 
