@@ -15,13 +15,6 @@ This Python script listens for MIDI input from a Korg nanoKEY2 and maps specific
 - `pynput` library for keyboard emulation
 - `rtmidi` backend for `mido` (on Windows)
 
-## Installation
-
-1. Install Python if not already installed: [Download Python](https://www.python.org/downloads/)
-2. Install required dependencies:
-   ```sh
-   pip install mido pynput python-rtmidi
-   ```
 
 ## Usage
 
@@ -54,7 +47,6 @@ This will create a `dist/midi_listener.exe` that can run without Python.
    git commit -m "Initial commit"
    git branch -M main
    git remote add origin https://github.com/YOUR_USERNAME/nanokey2-midi-mapper.git
-   git push -u origin main
    ```
 
 
