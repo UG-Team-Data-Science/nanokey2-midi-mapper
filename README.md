@@ -8,6 +8,9 @@ This Python script listens for MIDI input from a Korg nanoKEY2 and maps specific
 - Maps **C4 (Note 72)** to the **F5 key**
 - Pressing **C2 (Note 48)** stops the listener
 
+![image](https://github.com/user-attachments/assets/fc66778d-68a1-4dc0-b9f4-fb84fa55ec37)
+
+
 ## Requirements
 Before using this project, ensure that you have the **nanoKEY2/KORG USB-MIDI Driver** installed on your Windows machine.
 
