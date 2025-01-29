@@ -9,7 +9,7 @@ This Python script listens for MIDI input from a Korg nanoKEY2 and maps specific
 - Pressing **C2 (Note 48)** stops the listener
 
 ## Requirements
-Before using this project, ensure that you have the **KORG nanoKEY2/KORG USB-MIDI Driver** installed on your Windows machine.
+Before using this project, ensure that you have the **nanoKEY2/KORG USB-MIDI Driver** installed on your Windows machine.
 
 1. **Download the KORG USB-MIDI Driver**:
    - Go to the official [nanoKEY2/KORG USB-MIDI Driver download page](https://www.korg.com/us/support/download/driver/0/156/3541/) (or the relevant page if the link changes over time).
@@ -67,10 +67,10 @@ To generate a standalone `.exe` file:
 
 ```sh
 pip install pyinstaller
-pyinstaller --hidden-import=mido.backends.rtmidi midi_listener.py
+pyinstaller --hidden-import=mido.backends.rtmidi nanokey2-midi-mapper.py
 ```
 
-This will create a `dist/midi_listener.exe` that can run without Python.
+This will create a `dist/nanokey2-midi-mapper.exe` that can run without Python.
 
 
 This project is released under the MIT License.
