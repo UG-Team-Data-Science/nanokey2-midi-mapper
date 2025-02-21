@@ -1,12 +1,14 @@
 # nanoKEY2 MIDI to F5 Key Mapper
 
-This Python script listens for MIDI input from a Korg nanoKEY2 and maps specific MIDI notes to keyboard actions. In this case, pressing a specific key on the nanoKEY2 will trigger an F5 keypress on the computer.
+This Python script listens for MIDI input from a Korg nanoKEY2 and maps specific MIDI notes to keyboard actions. Additionally, if the nanoKEY2 is not connected, the application uses the `right arrow` key to trigger an `F5` key press, allowing for refreshing browser windows (e.g., Firefox). The app can be stopped by pressing the Q key or by playing a specific MIDI note.
 
 ## Features
 
-- Detects nanoKEY2 MIDI input
+- Detects nanoKEY2 MIDI input:  Automatically finds and listens to the nanoKEY2 MIDI input port.
 - Maps **C4 (Note 72)** to the **F5 key**
-- Pressing **C2 (Note 48)** stops the listener
+- If the nanoKEY2 is not connected, pressing the right arrow key on the keyboard triggers F5.
+- Pressing **C2 (Note 48)** stops the listener.
+- Alternatively, pressing the `Q` key on the computer keyboard stops the application.
 
 ![image](https://github.com/user-attachments/assets/fc66778d-68a1-4dc0-b9f4-fb84fa55ec37)
 
