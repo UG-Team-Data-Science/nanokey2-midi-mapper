@@ -6,7 +6,7 @@ This Python script listens for MIDI input from a Korg nanoKEY2 and maps specific
 
 - Detects nanoKEY2 MIDI input:  Automatically finds and listens to the nanoKEY2 MIDI input port.
 - Maps **C4 (Note 72)** to the **F5 key**
-- If the nanoKEY2 is not connected, pressing the right arrow key on the keyboard triggers F5.
+- If the nanoKEY2 is not connected, pressing the `right arrow` key on the keyboard triggers `F5`.
 - Pressing **C2 (Note 48)** stops the listener.
 - Alternatively, pressing the `Q` key on the computer keyboard stops the application.
 
@@ -55,10 +55,10 @@ You can also download the latest precompiled binary from the **releases page** o
 
 1. **Download the Binary**:
    - Navigate to the [Releases section](https://github.com/UG-Team-Data-Science/nanokey2-midi-mapper/releases) of this GitHub repository.
-   - Download the latest release binary suitable for your platform (e.g., `nanokey2-midi-mapper-v0.0.1-alpha.exe` for Windows).
+   - Download the latest release binary suitable for your platform (e.g., `nanokey2-midi-mapper-vx.x.x-alpha.exe` for Windows).
 
 2. **Run the Binary**:
-   - After downloading, locate the binary file (e.g., `nanokey2-midi-mapper-v0.0.1-alpha.exe`).
+   - After downloading, locate the binary file (e.g., `nanokey2-midi-mapper-vx.x.x-alpha.exe`).
    - Double-click the `.exe` file to run the application.
 
 3. **Usage**:
