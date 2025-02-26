@@ -29,12 +29,29 @@ Before using this project, ensure that you have the **nanoKEY2/KORG USB-MIDI Dri
    - The system should recognize the device and initialize it as a MIDI controller.
 
 ## Option1: Running the source code (using a python environment)
-
+Requirements: 
 - Python 3.x
 - `mido` library for MIDI input
 - `pynput` library for keyboard emulation
 - `rtmidi` backend for `mido` (on Windows)
 
+### Step 1: Create a Virtual Environment  
+Open **PowerShell** or **CMD** and navigate to the project directory. Then, create a virtual environment using the following command:  
+
+```powershell
+python -m venv .venv
+```
+
+### Step 2: Activate the Virtual Environment
+- PowerShell:
+```powershell
+.venv\Scripts\Activate
+```
+- CMD:
+```cmd
+.venv\Scripts\activate
+```
+### Step 3: Install Required Packages
 ```
 pip install mido pynput python-rtmidi
 ```
@@ -72,7 +89,7 @@ To generate a standalone `.exe` file:
 
 ```sh
 pip install pyinstaller
-pyinstaller --hidden-import=mido.backends.rtmidi nanokey2-midi-mapper.py
+pyinstaller --onefile --hidden-import=mido.backends.rtmidi nanokey2-midi-mapper.py
 ```
 
 This will create a `dist/nanokey2-midi-mapper.exe` that can run without Python.
