@@ -73,6 +73,9 @@ else:
                 # Assign a specific key (change note number as needed)
                 if msg.note == 72:  # Middle C (C4)
                     trigger_refresh()
+                    print("Triggering right arrow...")
+                    kb_controller.press(Key.right)
+                    kb_controller.release(Key.right)
                 elif msg.note == 48:
                     print("MIDI note 48 detected.")
                     stop_application()
